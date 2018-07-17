@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import models
 from layers import masked_cross_entropy
-from utils import to_var, time_desc_decorator, TensorboardWriter, pad_and_pack, normal_kl_div, to_bow, bag_of_words_loss, normal_kl_div, embedding_metric
+from utils import to_var, time_desc_decorator, pad_and_pack, normal_kl_div, to_bow, bag_of_words_loss, normal_kl_div, embedding_metric, TensorboardWriter
 import os
 from tqdm import tqdm
 from math import isnan
